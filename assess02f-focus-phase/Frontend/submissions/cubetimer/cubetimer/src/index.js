@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './App';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
-import LoginForm from './Components/LoginForm/LoginForm';
+//import LoginForm from './Containers/LoginForm/LoginForm';
 import { Provider } from 'react-redux';
-import store from './Redux/store';
+import store from './store';
 
 
 //ReactDOM.render(<App />, document.getElementById('root'));
@@ -17,7 +17,7 @@ import store from './Redux/store';
 
 ReactDOM.render(
   <Provider store={store}>
-    <LoginForm />
+    <App />
   </Provider>,
   document.getElementById('root')
 );
