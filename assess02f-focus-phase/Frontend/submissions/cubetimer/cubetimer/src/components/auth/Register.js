@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, BrowserRouter as Router, withRouter } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { registerUser } from '../../redux/actions/authActions'
@@ -45,7 +45,7 @@ class Register  extends Component{
     render() {
             const { errors } = this.state;
             return(
-                <Router>
+                //<Router>
                     <div className ="container">
                         <div className = "row">
                             <div className ="col s8 offset-s2">
@@ -125,7 +125,7 @@ class Register  extends Component{
                             </div>
                         </div>
                     </div>
-                </Router>
+                //</Router>
             );
     }
 }

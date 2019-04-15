@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { Link, BrowserRouter as Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class Navbar extends Component{
     render(){
         return(
-            <Router>
+            // <Router>
                 <div className ="nav-wrapper">
                     <nav className = "z-depth-0">
                         <div className = "nav-wrapper-white">
@@ -16,7 +16,7 @@ class Navbar extends Component{
                         </div>
                     </nav>
                 </div>
-            </Router>
+            // </Router>
 
         );
     }

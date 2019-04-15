@@ -44,11 +44,11 @@ class App extends Component {
           <div className="App">
             {/* <h1>HELLO WORLD</h1> */}
             <Navbar />
-            <Route exact path = "/" component = {Landing} />
-            <Route exact path = "/register" component = {Register} />
-            <Route exact path = "/login" component = {Login} />
             <Switch>
               <PrivateRoute exact path="/dashboard" component={Dashboard} />
+              <Route exact path = "/" component = {Landing} />
+              <Route exact path = "/register" component = {Register} />
+              <Route exact path = "/login" component = {Login} />
             </Switch>
           </div>
         </Router>

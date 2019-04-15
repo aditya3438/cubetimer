@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 //const ms = require('pretty-ms');
 
 class Timer extends Component{
-    render(){
 
         // constructor();{
         //     super();
@@ -17,16 +16,16 @@ class Timer extends Component{
         //     this.resetTimer = this.resetTimer.bind(this);
         // }
 
-        // startTimer=() =>{
+        // startTimer=(e) =>{
         //     console.log("start");
         //   }
-        // stopTimer=()=>{
+        // stopTimer=(e)=>{
         //     console.log("stop");
         //   }
-        // resetTimer=()=> {
+        // resetTimer=(e)=> {
         //     console.log("reset");
         //   }
-
+render(){
         return(
             <div>
                 <h1>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Timer from '../timer/Timer';
+import { Link } from 'react-router-dom'
 
 class Landing extends Component {
     render (){
@@ -14,14 +15,18 @@ class Landing extends Component {
                             View your stats, track your progress, create your learning playlists and so much more... 
                         </p>
                         <br/>
-                        <button type="button" style ={{width:"150px", borderRadius: "3px", letterSpacing:"1.5px"}} 
-                           className ="btn btn-large waves-effect waves-light hoverable blue accent-3">
-                            Register
-                        </button>
-                        <button type ="button" style ={{marginLeft: "2rem", width:"150px", borderRadius: "3px", letterSpacing:"1.5px"}} 
-                           className ="btn btn-large waves-effect waves-light hoverable white black-text">
-                            Login
-                        </button>
+                        <Link to="/register">
+                            <button type="button" style ={{width:"150px", borderRadius: "3px", letterSpacing:"1.5px"}} 
+                            className ="btn btn-large waves-effect waves-light hoverable blue accent-3">
+                                Register
+                            </button>
+                        </Link>
+                        <Link>
+                            <button type ="button" style ={{marginLeft: "2rem", width:"150px", borderRadius: "3px", letterSpacing:"1.5px"}} 
+                            className ="btn btn-large waves-effect waves-light hoverable white black-text">
+                                Login
+                            </button>
+                        </Link>
                         <br/>
                         <Timer/>
                     </div>
