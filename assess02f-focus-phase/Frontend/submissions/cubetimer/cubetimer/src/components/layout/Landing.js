@@ -21,7 +21,7 @@ class Landing extends Component {
                                 Register
                             </button>
                         </Link>
-                        <Link>
+                        <Link to ="/login">
                             <button type ="button" style ={{marginLeft: "2rem", width:"150px", borderRadius: "3px", letterSpacing:"1.5px"}} 
                             className ="btn btn-large waves-effect waves-light hoverable white black-text">
                                 Login

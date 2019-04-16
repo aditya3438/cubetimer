@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, withRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { registerUser } from '../../redux/actions/authActions'
@@ -141,4 +141,5 @@ const mapStateToProps = state => ({
     errors: state.errors
   });
 
-export default connect(mapStateToProps, {registerUser})(withRouter(Register));
+//export default connect(mapStateToProps, {registerUser})(withRouter(Register));
+export default connect(mapStateToProps, {registerUser})(Register);
