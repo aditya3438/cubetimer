@@ -9,7 +9,7 @@ class Landing extends Component {
                 <div className ="row">
                     <div className="col s12 center-align">
                         <h4>
-                            Become a better rubik's cube solver with CuTi, your personal cube timer.
+                            Become a better rubik's cube solver with <b>CuTi</b>, your personal cube timer.
                         </h4>
                         <p className ="flow-text grey-text text-darken-1">
                             View your stats, track your progress, create your learning playlists and so much more... 
