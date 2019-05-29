@@ -1,6 +1,6 @@
 
 
-### A React web app containing the following urls.
+### Cube timer is a React web app containing the following urls.
 1. /Login
 2. /Home
 3. /Profile/:userId.
