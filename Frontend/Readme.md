@@ -1,18 +1,11 @@
-## FrontEnd Assignment
 
 
-### Create a React web app containing the following urls.
+### A React web app containing the following urls.
 1. /Login
 2. /Home
 3. /Profile/:userId.
 
-#### Coding Requirements:
-1. Use [mock services](https://demo1443058.mockable.io/codeproject_tutorial/api/contacts) to fetch the data.
-2. No Third party plugin should be used, not even jQuery or Bootstrap.
-3. The project Structure should be the recommended one.
-4. The naming conventions of variable functions Classes, services and components should be as per standards.
-
-#### Assignments requirements:
+#### Conditions:
 1. Only after login the routes no.3 will be accessible.
 2. The user should have a sign-out button after login in the header under his username.
 3. Unauthenticated users can only access the route no. 1 & 2.
